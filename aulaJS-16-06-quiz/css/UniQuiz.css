@@ -8,22 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Evita scroll desnecessário */
-}
-
-/* Container principal para gerenciar o background */
-#appContainer {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: background-image 0.8s ease-in-out; /* Transição suave para o fundo */
-    display: flex; /* Para centralizar o conteúdo */
-    justify-content: center;
-    align-items: center;
-}
-
-/* Classes para os diferentes fundos de tema */
+}iferentes fundos de tema */
 .body-bg-inicial {
     background-image: url("https://noticias.ambientebrasil.com.br/wp-content/uploads/2021/10/pexels-miriam-espacio-110854-scaled.jpg"); /* Fundo padrão ou inicial */
 }
